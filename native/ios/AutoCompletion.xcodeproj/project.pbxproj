@@ -23,8 +23,9 @@
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		146834051AC3E58100842450 /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 146834041AC3E56700842450 /* libReact.a */; };
 		79566B2FA73BF7C2884F009E /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A8CACA17419EB396683C4015 /* libPods.a */; };
+		7991BCAC47AFA821C52961C2 /* out in Resources */ = {isa = PBXBuildFile; fileRef = 7991BCAB47AFA821C52961C2 /* out */; };
 		832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
-		7991BCAC47AFA821C52961C2 /* out in Resources */ = {isa = PBXBuildFile; fileRef = 7991BCAB47AFA821C52961C2 /* out */; }; 
+		ED3E713D1C018CAB00469813 /* FCJHttpClient.m in Sources */ = {isa = PBXBuildFile; fileRef = EDD128361C0185E500BEC4C6 /* FCJHttpClient.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -128,11 +129,13 @@
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = AutoCompletion/main.m; sourceTree = "<group>"; };
 		146833FF1AC3E56700842450 /* React.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = React.xcodeproj; path = "../node_modules/react-native/React/React.xcodeproj"; sourceTree = "<group>"; };
 		78C398B01ACF4ADC00677621 /* RCTLinking.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTLinking.xcodeproj; path = "../node_modules/react-native/Libraries/LinkingIOS/RCTLinking.xcodeproj"; sourceTree = "<group>"; };
+		7991BCAB47AFA821C52961C2 /* out */ = {isa = PBXFileReference; lastKnownFileType = folder; name = out; path = ../../target/out; sourceTree = "<group>"; };
 		832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTText.xcodeproj; path = "../node_modules/react-native/Libraries/Text/RCTText.xcodeproj"; sourceTree = "<group>"; };
 		A8CACA17419EB396683C4015 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8D240DF397BD39A95687F21 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		EDD128351C0185E500BEC4C6 /* FCJHttpClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FCJHttpClient.h; sourceTree = "<group>"; };
+		EDD128361C0185E500BEC4C6 /* FCJHttpClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FCJHttpClient.m; sourceTree = "<group>"; };
 		F3DC83B50E616A91177F856F /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
-		7991BCAB47AFA821C52961C2 /* out */ = {isa = PBXFileReference; lastKnownFileType = folder; name = out; path = ../../target/out; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -248,6 +251,8 @@
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				13B07FB11A68108700A75B9A /* LaunchScreen.xib */,
 				13B07FB71A68108700A75B9A /* main.m */,
+				EDD128351C0185E500BEC4C6 /* FCJHttpClient.h */,
+				EDD128361C0185E500BEC4C6 /* FCJHttpClient.m */,
 			);
 			name = AutoCompletion;
 			sourceTree = "<group>";
@@ -537,7 +542,7 @@
 			files = (
 				008F07F31AC5B25A0029DE68 /* main.jsbundle in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
-				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */, 
+				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
 				7991BCAC47AFA821C52961C2 /* out in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -605,6 +610,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED3E713D1C018CAB00469813 /* FCJHttpClient.m in Sources */,
 				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
 			);

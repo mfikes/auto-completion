@@ -14,6 +14,7 @@
 #import "ABYServer.h"
 #import "ABYContextManager.h"
 #import "RCTContextExecutor.h"
+#import "FCJHttpClient.h"
 
 /**
  This class exists so that a client-created `JSGlobalContextRef`
@@ -117,6 +118,9 @@ RCT_EXPORT_MODULE()
   // Set up our context manager
   self.contextManager = [[ABYContextManager alloc] initWithContext:JSGlobalContextCreate(NULL)
                                            compilerOutputDirectory:self.compilerOutputDirectory];
+  
+  JSContext* context = [JSContext contextWithJSGlobalContextRef:self.contextManager.context];
+  context[@"FCJHttpClient"] = [FCJHttpClient class];
 
   // Inject our context using ABYContextExecutor
   [ABYContextExecutor setContext:self.contextManager.context];

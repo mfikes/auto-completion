@@ -1,4 +1,25 @@
 PODS:
+  - AFNetworking (2.6.3):
+    - AFNetworking/NSURLConnection (= 2.6.3)
+    - AFNetworking/NSURLSession (= 2.6.3)
+    - AFNetworking/Reachability (= 2.6.3)
+    - AFNetworking/Security (= 2.6.3)
+    - AFNetworking/Serialization (= 2.6.3)
+    - AFNetworking/UIKit (= 2.6.3)
+  - AFNetworking/NSURLConnection (2.6.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.6.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.6.3)
+  - AFNetworking/Security (2.6.3)
+  - AFNetworking/Serialization (2.6.3)
+  - AFNetworking/UIKit (2.6.3):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
   - Ambly (0.6.0):
     - GCDWebServer/WebDAV (~> 3.2.2)
   - GCDWebServer/Core (3.2.7)
@@ -6,9 +27,11 @@ PODS:
     - GCDWebServer/Core
 
 DEPENDENCIES:
+  - AFNetworking (~> 2.0)
   - Ambly (~> 0.6.0)
 
 SPEC CHECKSUMS:
+  AFNetworking: cb8d14a848e831097108418f5d49217339d4eb60
   Ambly: cf953b8208d534a999704f8a009897132c37a46f
   GCDWebServer: 76a9540371d5f12f850b32ec7f555dd2d266e543
 
