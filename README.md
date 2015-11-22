@@ -1,14 +1,11 @@
 # auto-completion
 
-A Clojure library designed to ... well, that part is up to you.
+A port of the Om Next Auto-Completion Widget to React Native.
 
 ## Usage
 
-FIXME
+This is a Natal based app, so that stuff applies. But, in short you should be able to build the ClojureScript and then Run the Xcode app.
 
-## License
+## Demo
 
-Copyright © 2015 FIXME
-
-Distributed under the Eclipse Public License either version 1.0 or (at
-your option) any later version.
+ <center style="overflow:hidden;"><br/><a href='https://www.youtube.com/watch?v=jCAbgiHd9T4'><img src="http://img.youtube.com/vi/jCAbgiHd9T4/0.jpg" style="width: 350px; max-width: 95%; margin:-56px 0px -57px 0px;"/></a><br/><br/></center>
